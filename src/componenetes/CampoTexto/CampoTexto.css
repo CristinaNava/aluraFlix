@@ -1,0 +1,21 @@
+.campo_texto{
+    margin: 24px 0;
+}
+
+.campo_texto label{
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px; /*es para separar el label del input*/
+}
+
+.campo_texto input{
+    width: 100%;
+    background-color: white;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+    border: none;
+    padding: 30px 20px;
+    outline-color: darkviolet; /*cuando selecionamos el input cambia al color que esta indicado en esta etiqueta*/
+    font-size: 16px;border-radius: 10px;
+    box-sizing: border-box;
+}

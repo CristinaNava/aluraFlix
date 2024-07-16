@@ -1,0 +1,15 @@
+.boton {
+    background-color: blueviolet;
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 18px 32px; /*el primer valor es arriba y abajo el segundo es a los lados*/
+    border: none;
+    color: white; /*es para el color de la letra*/
+    margin: 32px 0; /*es para separar de los imput que estan arriba del boton*/
+    cursor: pointer;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.boton:hover{
+    color: rgb(243, 165, 207);
+}

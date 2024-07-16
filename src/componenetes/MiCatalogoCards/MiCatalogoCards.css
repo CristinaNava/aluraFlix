@@ -1,0 +1,23 @@
+.tituloCatalogoMain{
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+
+.tituloCatalogoMain h3{
+    font-weight: 400;
+    color: darkorchid;
+    border-bottom: 4px solid ;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.contenedorCatalogoMain{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

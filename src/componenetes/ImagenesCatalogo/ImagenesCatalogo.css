@@ -1,0 +1,55 @@
+.encabezado img{
+    width: 280px;
+    height: 350px;
+}
+
+.imagen__catalogo {
+    width: 280px;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.imagen__catalogo .encabezado {
+    background-color: #f0f0f0;
+    border-radius: 10px 10px 0 0;
+}
+
+/* .imagen__catalogo img{
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+} */
+
+.imagen__catalogo .info{
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0 0 10px 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    min-height: 10px;
+    font-family: "Monserrat", sans-serif;
+}
+
+.imagen__catalogo .info h4{
+    color: #6278F7;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.imagen__catalogo .info h5{
+    color: #212121;
+    font-size: 18px;
+    padding: 0 24px;
+    line-height: 22px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.eliminar{
+    position: absolute;
+    right: -5px;
+    top: -5px;
+}
